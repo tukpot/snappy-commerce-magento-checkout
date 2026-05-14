@@ -23,7 +23,7 @@ This module adds a cart loading endpoint to your Magento 2 store. When a custome
 From your Magento root directory, run:
 
 ```bash
-git clone https://github.com/tukpot/snappy-commerce-magento-checkout.git app/code/SnappyCommerce/CartLink
+git clone -b master https://github.com/tukpot/snappy-commerce-magento-checkout.git app/code/SnappyCommerce/CartLink
 ```
 
 To update the module in the future:
@@ -34,7 +34,7 @@ cd app/code/SnappyCommerce/CartLink && git pull
 
 **Option B — Download zip**
 
-**[Download SnappyCommerce_CartLink.zip](https://raw.githubusercontent.com/tukpot/snappy-commerce-magento-checkout/main/SnappyCommerce_CartLink.zip)**
+**[Download SnappyCommerce_CartLink.zip](https://raw.githubusercontent.com/tukpot/snappy-commerce-magento-checkout/master/SnappyCommerce_CartLink.zip)**
 
 Upload the zip to your Magento root directory and extract it:
 
