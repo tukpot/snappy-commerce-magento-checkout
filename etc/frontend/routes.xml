@@ -2,6 +2,11 @@
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
     <router id="standard">
+        <!--
+            frontName "cart" produces the URL /cart/load?id=...
+            This does not conflict with Magento's native cart, which uses
+            the "checkout" frontName (i.e. /checkout/cart).
+        -->
         <route id="snappycommerce_cartlink" frontName="cart">
             <module name="SnappyCommerce_CartLink"/>
         </route>
